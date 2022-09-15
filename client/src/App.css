@@ -1,0 +1,76 @@
+.App {
+  flex-direction: column;
+  display: flex;
+  text-align: center;
+}
+
+.SearchField {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-content: center;
+}
+
+.flex-container-matches {
+  display: flex;
+  justify-items: space-evenly;
+  flex-direction: row;
+}
+
+.flex-match {
+  display: flex;
+  flex-direction: column;
+  margin: 5px 5px;
+  border: 1px solid black;
+  border-radius: 3px;
+}
+
+.match-title {
+  border-bottom: 1px solid black;
+}
+
+.match-content {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.full-container {
+  display: flex;
+  flex-direction: column;
+  border-top: 1px solid rgba(0, 0, 0, 0.2);
+  align-items: center;
+  flex: 1;
+}
+
+.stats {
+  margin: 5px 5px;
+  display: flex;
+  align-self: center;
+}
+
+.profile-text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-around;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.footer {
+  padding-left: 50px;
+  display: flex;
+  flex-direction: row;
+  position: fixed;
+  bottom: 0;
+  border: 1px solid black;
+}
+
+.footer-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid black;
+}
