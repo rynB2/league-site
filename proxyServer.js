@@ -6,7 +6,7 @@ var app = express();
 
 app.use(cors());
 
-const API_KEY = "get your own!";
+const API_KEY = "outdated key";
 
 function getPlayerPUUID(playerName) {
   return axios
